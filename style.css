@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 /* navbar  */
-.navbar{
+.navbarr{
     padding: 0 6rem;
     display: flex;
     justify-content: space-between;
@@ -51,6 +51,7 @@ body{
 .navbar-location-data-name p {
     font-size: 18px;
     color: gray;
+    margin: 5px 0;
 }
 .navbar-location-data-arrow {
     margin-left: 3rem;
@@ -76,6 +77,8 @@ body{
 .navbar-profile-section {
     display: flex;
     align-items: center;
+    justify-content: center;
+   
 }
 .navbar-profile-section-image img {
     width: 40px;
@@ -84,10 +87,16 @@ body{
 }
 .navbar-profile-section-name {
     margin: 0 10px;
+    
+    
+   
 }
-.navbar-profile-section-name p {
+.navbar-profile-section-namep {
     font-size: 18px;
     font-weight: 500;
+   
+    margin: 5px 0;
+   
 }
 .navbar-profile-section-arrow img {
     width: 12px;
@@ -115,6 +124,7 @@ body{
 .small-location-data-name p {
     font-size: 18px;
     color: gray;
+    
 }
 .small-search input {
     width: 30px;
@@ -176,6 +186,7 @@ body{
 .aside-location p {
     font-size: 15px;
     color: gray;
+    margin: 5px 0;
 }
 .aside-location p:hover{
     color: red;
@@ -213,6 +224,7 @@ body{
     color: gray;
     font-size: 15px;
     font-weight: 500;
+    margin: 5px 0;
 }
 
 @media screen and (max-width:1025px){
@@ -236,6 +248,7 @@ body{
     padding: 5px 6rem;
     background-color: whitesmoke;
     height: 300px;
+    margin: 2rem 0;
 }
 .carosuel-title p{
     font-size: 30px;
@@ -336,7 +349,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 2rem;
+    margin: 1rem;
+    padding: 5px 0;
     
 }
 .card:hover{
@@ -381,6 +395,7 @@ body{
     padding: 0;
     color: white;
     font-size: 12px;
+    margin: 1px;
 
 }
 .card-subtitles{
@@ -429,6 +444,30 @@ body{
    
 }
 
+
+
+
+
+/* form */
+
+.drp-down{
+    padding: 1rem 6rem;
+    margin: 4rem 0;
+    border: none;
+    outline: none;
+}
+.drp-down-btn{
+    margin: 1rem 0;
+    border: 1px solid gray;
+}
+.heading{
+    background-color: white;
+    border: none;
+}
+
+
+
+
 /* footer */
 .footer{
     background-color:whitesmoke;
@@ -472,11 +511,14 @@ body{
     width: 20px;
     height: 20px;
 }
+.footer-first-data-text p{
+ margin: 5px 0;
+}
 .footer-second-box {
    
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     
     flex-wrap: wrap;
     
@@ -515,8 +557,9 @@ body{
 .footer-second-box-icons{
     display: flex;
     flex-direction: column;
-    
+    margin-top: 1rem;
     align-items: center;
+   
    
 }
 .footer-second-box-icon {
@@ -527,7 +570,7 @@ body{
 .footer-second-box-icon p{
     font-size: 20px;
     font-weight: 600;
-    padding: 0 8px ;
+    padding:  8px 0;
     margin: 0;
     font-style:inherit;
     color: rgb(58, 56, 56);
@@ -628,65 +671,3 @@ body{
     font-size: 15px;
 
 }
-
-.form {
-    
-    margin: 1rem 2rem;
-    background-color: white;
-    border: 1px solid gray;
-    width: 500px;
-    height: 50px;
-  }
-.form a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    cursor: pointer;
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: rgb(17, 219, 34);
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
- 
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-   
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .show {
-    display: block;
-  }
