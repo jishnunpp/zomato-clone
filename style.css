@@ -8,9 +8,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    border: 2px solid red;
-    
-    
+     
 }
 .navbar-logo-section{
     display: flex;
